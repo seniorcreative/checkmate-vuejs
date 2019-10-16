@@ -1,5 +1,23 @@
 # checkmate
 
+## Signup Demo for Checkmate
+
+### Created with VueJS CLI v3
+This is a mobile first development project.
+
+Make use of the following wherever possible
+- Typescript
+- TSLint
+- VueX state management (immutable)
+- Bulma classes for responsive scaffolding and layout helpers - see (bulma.io)
+- Sass with SCSS syntax
+- Use NPM not Yarn
+- Use Google Firebase to store submitted data
+
+Make sure you have global installations of @vue/cli and vue-generate-component... :)
+
+Commands:
+
 ## Project setup
 ```
 npm install
