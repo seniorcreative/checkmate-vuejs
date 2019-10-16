@@ -13,5 +13,26 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      /* NB on a real world application the API key would be provided from back-end */
+      var firebaseConfig = {
+        apiKey: "AIzaSyAGTiZBrNszDobcyBAqdOqs-eAGoPw6PPU",
+        authDomain: "checkmate-9b25c.firebaseapp.com",
+        databaseURL: "https://checkmate-9b25c.firebaseio.com",
+        projectId: "checkmate-9b25c",
+        storageBucket: "checkmate-9b25c.appspot.com",
+        messagingSenderId: "396888193139",
+        appId: "1:396888193139:web:d623ada216c452d90b5206"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
