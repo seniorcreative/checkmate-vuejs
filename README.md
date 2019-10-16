@@ -10,7 +10,7 @@ Make use of the following wherever possible
 - TSLint
 - VueX state management (immutable)
 - Bulma classes for responsive scaffolding and layout helpers - see (bulma.io)
-- Sass with SCSS syntax
+- Sass with SCSS syntax. Use flexbox not floats.
 - Use NPM not Yarn
 - Use Google Firebase to store submitted data
 
