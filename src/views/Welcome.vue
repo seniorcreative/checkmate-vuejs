@@ -2,13 +2,13 @@
   <section>
     <div class="columns">
       <div class="column has-text-left">
-        <h1 class="title is-2 has-text-centered">checkmate</h1>
+        <h1 class="title is-1 has-text-centered">checkmate</h1>
 
         <div class="notification">This is a demo!</div>
 
         <section class="columns">
           <div class="column">
-            <article class="message">
+            <article class="message is-primary">
               <div class="message-header">
                 <p>Hello World</p>
                 <button class="delete" aria-label="delete"></button>
@@ -22,7 +22,7 @@
             </article>
           </div>
           <div class="column">
-            <article class="message">
+            <article class="message is-info">
               <div class="message-header">
                 <p>Hello World</p>
                 <button class="delete" aria-label="delete"></button>
@@ -36,7 +36,7 @@
             </article>
           </div>
           <div class="column">
-            <article class="message">
+            <article class="message is-success">
               <div class="message-header">
                 <p>Hello World</p>
                 <button class="delete" aria-label="delete"></button>

@@ -1,6 +1,12 @@
 @import '~bulma/bulma';
 
 
+html, body {
+  background: -moz-linear-gradient(left,  #ff7905 0%, #ff72fa 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #ff7905 0%,#ff72fa 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #ff7905 0%,#ff72fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  height: 100%;
+}
 
 #app {
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +21,7 @@
       font-weight: bold;
       color: #2c3e50;
       &.router-link-exact-active {
-        color: #42b983;
+        color: #fff;
       }
     }
   }
