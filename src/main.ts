@@ -4,11 +4,11 @@ import router from './router';
 import store from './store';
 import firebase from 'firebase';
 import './registerServiceWorker';
-
+import config from '../config.json';
 import './assets/sass/main.scss';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAGTiZBrNszDobcyBAqdOqs-eAGoPw6PPU',
+  apiKey: config.FIREBASE_KEY,
   authDomain: 'checkmate-9b25c.firebaseapp.com',
   databaseURL: 'https://checkmate-9b25c.firebaseio.com',
   projectId: 'checkmate-9b25c',
